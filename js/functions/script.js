@@ -40,12 +40,3 @@ function avarige(...numbers){
 }
 console.log(avarige(1,2,3,4,5))
 
-function createMultiplier(factor){
-
-        return (x) => {
-            
-            return x*factor
-        }
-    }
-
-console.log(createMultiplier(3)(3))
